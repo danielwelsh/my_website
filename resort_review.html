@@ -4,7 +4,7 @@
 	<title>Resort Review Form</title>
 </head>
 <body>
-<form name="Resort Review Form" action="https://httpbin.org/post">
+<form name="Resort Review Form" action="https://httpbin.org/post" method="post">
 	<fieldset>
 		<h2>Who are you:</h2>
 		<div>
@@ -33,9 +33,11 @@
 			<label>What information would you like to know?</label>
 			<textarea name="Requested information" placeholder="Enter addional information here" rows="20" cols="100" ></textarea>
 		</div>
-
-
+		<div>
+			<input type="submit" name="submit">
+		</div>
 	</fieldset>
+
 
 </form>
 
