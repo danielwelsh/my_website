@@ -1,26 +1,29 @@
+
+body {background-color: #ecf2f9}
+
 .nav {display: inline-block;
-vertical-align: text-top;
-width: 20%;
-border-style: solid;
-border-width: 3px;
-border-color: #bedbe2;
-padding: 5px;
-position: relative;
-top: 30px;
-}
+	vertical-align: text-top;
+	width: 20%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #bedbe2;
+	padding: 5px;
+	position: relative;
+	top: 30px;
+	}
 
 h3 { font-family: "Times New Roman", Times, sans-serif;
-font-size: 1.5em;
- }
+	font-size: 1.5em;
+	 }
 
 .content {display: inline-block;
-vertical-align: text-top;
-width: 40%;
-padding: 2%;
-margin: 2%;
-background: #bedbe2;
+	vertical-align: text-top;
+	width: 40%;
+	padding: 2%;
+	margin: 2%;
+	background: #bedbe2;
 
-}
+	}
 
 img {
 	max-width: 60%;
@@ -29,8 +32,12 @@ img {
 	margin: 0 auto;
 }
 
-fieldset { border: solid;
-border-color: #bedbe2; }
+fieldset { display: inline-block;
+	border: solid;
+	border-color: #bedbe2;
+	width: 40%;
+	padding: 5px
+	 }
 
 
 .sub-title {text-align: center}
@@ -41,7 +48,15 @@ a:visited {color: gray;}
 #submit:hover { background-color: #c5d2e8; }
 
 .form { margin: 1%;
+background-color: #3973ac;
+color: white;}
 
-}
+@media (max-width: 1000px) {
+	.content{display: block;
+	margin: 5%}
+	.nav{display: block;
+	margin: 5%}
 
+	}
 
+#review {background-image: url("images.png")}
