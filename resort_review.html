@@ -5,46 +5,55 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<form name="Resort Review Form" action="https://httpbin.org/post" method="post">
-	<fieldset>
-		<h2>Who are you:</h2>
+
+<section class="nav">
+	<h3>Return:</h3>
+	<a href="index.html">Home Page</a>
+</section>
+
+<section class="content">
+	<form name="Resort Review Form" action="https://httpbin.org/post" method="post">
 		<div>
-			<label>Name:</label>
-			<input type="text" name="Name">
-		</div>
-	</fieldset>
-	<fieldset>
-		<h2>Contact information:</h2>
-		<div>
-			<label>Email:</label>
-			<input type="email" name="Email">
-		</div>
-		<div>
-			<label>Mobile:</label>
-			<input type="tel" name="Mobile Number">
-		</div>
-	</fieldset>
-	<fieldset> 
-		<h2>Requested Resort Review:</h2>
-		<div>
-			<label>Name of Resort:</label>
-			<input type="text" name="Resort Name">
+			<h3>Who are you:</h3>
+			<div>
+				<label class="form">Name:</label>
+				<input class="form" type="text" name="Name">
+			</div>
 		</div>
 		<div>
-			<label>What information would you like to know?</label>
-			<textarea name="Requested information" placeholder="Enter addional information here" rows="20" cols="100" ></textarea>
+			<h3>Contact information:</h3>
+			<div>
+				<label class="form">Email:</label>
+				<input class="form" type="email" name="Email">
+			</div>
+			<div>
+				<label class="form">Mobile:</label>
+				<input class="form" type="tel" name="Mobile Number">
+			</div>
 		</div>
-		<div>
-			<input type="submit" name="submit">
+		<div> 
+			<h3>Requested Resort Review:</h3>
+			<div>
+				<label class="form">Name of Resort:</label>
+				<input class="form" type="text" name="Resort Name">
+			</div>
+			<div>
+				<label class="form">What information would you like to know?</label>
+				<textarea class="form" name="Requested information" placeholder="Enter addional information here" rows="20" cols="40" ></textarea>
+			</div>
+			<div>
+				<input class="form" id="submit" type="submit" name="submit">
+			</div>
 		</div>
-	</fieldset>
+
+		<div id="return">
+			<nav><a href="index.html">Home Page</a></nav>
+		</div>
+
+	</form>
+</section>
 
 
-</form>
-
-<fieldset>
-<nav><a href="index.html">Home Page</a></nav>
-</fieldset>
 
 
 </body>
